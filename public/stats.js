@@ -6,7 +6,9 @@ fetch("/api/workouts/range")
   })
   .then(data => {
     populateChart(data);
+
   });
+
 
 
 API.getWorkoutsInRange()
