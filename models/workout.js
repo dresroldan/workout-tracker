@@ -27,11 +27,12 @@ const workoutSchema = new Schema(
           type: Number,
           required: "enter an exercise duration time",
         },
-
+        distance: {type: Number},
         weight: { type: Number },
         reps: { type: Number },
         sets: { type: Number },
-      },
+       
+      }
     ]
   },
 
@@ -53,6 +54,7 @@ workoutSchema.virtual("totalDistance").get(function () {
   return this.exercises.reduce((total, exercise) => {
     return total + exercise.distance;
   },0 );
+ 
 });
 
 
