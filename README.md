@@ -9,7 +9,9 @@
   No installation required. Application is deployed through Heroku.<br> 
  Link to deployed site: https://limitless-woodland-88147.herokuapp.com/
   ## Usage:
-  
+  When the user is loads the page, they are presented with the Workout Dashboard that displays their last workout logged. The user is also presented with two options.
+  The user can either select to 'Continue Workout' to add an exercise to a previous workout plan, or select 'New Workout' to add a new exercise to a new workout plan.
+  There is also a 'Dashboard' tab at the top of the page that displays previous exercises and their stats using chart.js.
 
 
   ## Contribution
